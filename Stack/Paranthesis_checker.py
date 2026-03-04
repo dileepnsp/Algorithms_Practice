@@ -13,9 +13,9 @@ def paranth_check(string,stack):
             stack.push(string[i])
         i=i+1
     if stack.size() == 0:
-        print("invalid")
+        print("Valid")
     else:
-        print("not valid")
+        print("Invalid")
 
 if __name__ == '__main__':
     stack=Stack()

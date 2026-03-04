@@ -30,12 +30,12 @@ class BinarySearchTree:
             return True
         if data < self.data:
             if self.left:
-                self.left.search(data)
+                return self.left.search(data)
             else:
                 return False
         if data > self.data:
             if self.right:
-                self.right.search(data)
+                return self.right.search(data)
             else:
                 return False
 
